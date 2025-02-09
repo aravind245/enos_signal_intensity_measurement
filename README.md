@@ -12,7 +12,7 @@ This repository contains a MATLAB-based pipeline for analyzing **eNOS (endotheli
 
 ## Folder Structure
 
-📁 enos_signal_intensity_measurement │── 📂 results/ # Output folder for extracted intensity results │── 📄 analyze_images.m # Main script for image analysis │── 📄 intensities.csv # Output file containing intensity measurements │── 📄 README.md # This documentation
+📁 enos_signal_intensity_measurement │── 📂 results/ # Output folder for extracted intensity results │── 📄 intensity_multiple_files.m # Main script for image analysis │── 📄 intensities.csv # Output file containing intensity measurements │── 📄 README.md # This documentation
 
 
 ## Dependencies
@@ -32,7 +32,7 @@ Run:
 matlab
 Copy
 Edit
-analyze_images
+intensity_multiple_files
 Results will be saved in /results and exported as intensities.csv.
 Expected Output
 Filename	Max Area Intensity
