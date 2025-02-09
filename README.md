@@ -30,26 +30,21 @@ Open MATLAB.
 Set the working directory to the repository folder.
 Run:
 matlab
-Copy
-Edit
 intensity_multiple_files
+
 Results will be saved in /results and exported as intensities.csv.
+
 Expected Output
 Filename	Max Area Intensity
 image1.tif	123.45
 image2.tif	110.23
-Troubleshooting
-Issue	Cause	Solution
-No objects found	No large regions detected	Adjust segmentation parameters (disk size, threshold)
-MATLAB error: File not found	Incorrect file path	Ensure images are placed in the correct directory
-Intensity values are 0	Poor image contrast	Adjust brightness/contrast before processing
+
+
 Citation
-less
-Copy
-Edit
 A. Sivakumar. (2025). eNOS Signal Intensity Measurement [Software]. GitHub. 
 https://github.com/aravind245/enos_signal_intensity_measurement
-Contributors
+C
+ontributors
 Aravind Sivakumar - MATLAB Script Development
 Future Improvements
 🔲 Enhance segmentation for low-signal images.
